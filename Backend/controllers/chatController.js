@@ -5,6 +5,7 @@ import User from "../models/userModel.js";
 //@description     Create or fetch One to One Chat
 //@route           POST /api/chat/
 //@access          Protected
+
 const accessChat = async (req, res) => {
   const { userId } = req.body;
 
